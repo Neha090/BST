@@ -1,4 +1,23 @@
-import java.util.*;
+/*
+Input:
+
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+Output:
+
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+*/
+         
+         
+         
+ import java.util.*;
 public class Invert_bst{
 
     static class Tree
@@ -28,7 +47,7 @@ public class Invert_bst{
            root=ins(root,val);
        }
        
-       Tree ins (Tree root,int val)
+       Tree ins(Tree root,int val)
        {
            Tree node=new Tree(val);
            
